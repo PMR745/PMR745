@@ -26,5 +26,6 @@ let progressStartValue = 0,
 for(let i = 0; i < progressEndValue.length; i++) {
     progressValue[i].textContent = `${progressEndValue[i]}%`;
     skillGraph[i].style.background = `conic-gradient(#04fc43 ${progressEndValue[i]*3.6}deg, white 0deg)`
-    skillGraph[i].style.boxShadow = "0 0 20px 3px #04fc43";
+    skillGraph[i].style.boxShadow = "0 0 20px 2px #04fc43";
+
 }
