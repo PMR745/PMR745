@@ -50,6 +50,10 @@ nav ul li a:hover {
     color: white;
 }
 
+.home {
+    color: white;
+}
+
 .container {
     display: flex;
     background-color: #273132;
