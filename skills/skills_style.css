@@ -50,11 +50,9 @@ nav ul li a {
 nav ul li a:hover {
     color: white;
 }
-
 .skills {
     color: white;
 }
-
 .container {
     display: flex;
     align-items: center;
@@ -65,7 +63,8 @@ nav ul li a:hover {
     /* height: 100%; */
     width: 100%;
     padding-top: 5px;
-    /* padding: 50px 20px; */
+    font-family: 'Oswald', sans-serif;
+    padding-bottom: 20px;
 }
 
 .box {
@@ -128,6 +127,33 @@ nav ul li a:hover {
     color: snow;
 }
 
+.websites {
+    margin-top: 15px;
+}
+
+.webBox {
+    /* background-color: red; */
+    height: 30px;
+    width: 300px;
+    font-size: 25px;
+    border: 2px solid rgb(142, 136, 136);
+    padding: 5px;
+}
+
+.websites ul li {
+    padding: 15px 0px;
+}
+
+.websites ul li a{
+    text-decoration: none;
+    color: white;
+    transition: all 0.1s ease-in;
+}
+
+.websites ul li a:hover {
+    color: rgb(121, 121, 249);
+}
+
 @media screen and (max-width: 1050px) and (min-width: 650px) {
     .box {
         display: block;
@@ -184,6 +210,9 @@ nav ul li a:hover {
         height: 110px;
         width: 110px;
     }
+    .webBox {
+        font-size: 20px;
+    }
 }
 
 
@@ -221,5 +250,8 @@ nav ul li a:hover {
     .skill_graph::before {
         height: 95px;
         width: 95px;
+    }
+    .webBox {
+        font-size: 15px;
     }
 }
