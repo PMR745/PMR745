@@ -92,6 +92,7 @@ nav ul li a:hover {
 }
 .img img {
     height: 50vh;
+    border-radius: 15px;
 }
 
 @media screen and (max-width: 319px) {
