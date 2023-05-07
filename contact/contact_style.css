@@ -79,6 +79,10 @@ nav ul li a:hover {
     align-items: center;
 }
 
+.img1:hover {
+    border: 2px solid white;
+}
+
 .imgs img {
     cursor: pointer;
     height: 90px;
