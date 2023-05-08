@@ -22,7 +22,6 @@
 }
 
 .info {
-    /* background-color: blue; */
     height: 50vh;
     width: 60vw;
     font-family: 'Oswald', sans-serif;
@@ -32,6 +31,10 @@
 .name {
     font-weight: bold;
     font-family: 'Noto Serif Gujarati', serif;
+}
+
+.hide {
+    visibility: hidden;
 }
 
 .about {
@@ -44,7 +47,6 @@
 }
 
 .img {
-    /* background-color: red; */
     padding-left: 20px;
 }
 .img img {
@@ -52,9 +54,22 @@
 }
 
 .img img:hover {
-    animation: enlarge 2s 1;
+    animation: enlarge 1s 1;
 
 }
+
+@keyframes typing {
+    to {
+        width: 0%;
+    }
+}
+
+@keyframes lines {
+    50% {
+        color: transparent;
+    }
+}
+
 @keyframes enlarge {
     0% {
         height: 50vh;
@@ -66,6 +81,7 @@
         height: 50vh;
     }
 }
+
 @media screen and (max-width: 319px) {
     .container {
         padding: 0;
@@ -94,7 +110,7 @@
 @media screen and (min-width: 320px) and (max-width:450px) {
     .container {
         padding: 0;
-        padding-left: 5px;
+        padding-left: 5%;
     }
     .info {
         font-size: 30px;
@@ -119,7 +135,7 @@
 @media screen and (min-width: 450px) and (max-width: 650px) {
     .container {
         padding: 0;
-        padding-left: 7px;
+        padding-left: 7%;
         padding-top: 10px;
     }
     .img img {
@@ -134,9 +150,27 @@
 @media screen and (min-width: 651px) and (max-width: 950px) {
     .container {
         padding: 0;
-        padding-left: 10px;
+        padding-left: 7%;
     }
     .img img {
         height: 40vh;
+    }
+}
+
+@media screen and (min-width: 951px) {
+    
+    .typing {
+        position: relative;
+    }
+    
+    .typing::after {
+        content: '|';
+        position: absolute;
+        right: 0;
+        color: white;
+        background-color: #273132;
+        width: 100%;
+        animation: typing 3s steps(19) alternate infinite,
+                    lines 1s infinite;
     }
 }
