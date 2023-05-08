@@ -83,6 +83,14 @@ nav ul li a:hover {
     border: 2px solid white;
 }
 
+.img1 a {
+    transition: all 0.3s ease;
+}
+
+.img1 a:active {
+    transform: scale(0.94) translateY(-0%);
+}
+
 .imgs img {
     cursor: pointer;
     height: 90px;
