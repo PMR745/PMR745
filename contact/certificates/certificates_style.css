@@ -31,8 +31,9 @@
 .container .image-container .image {
     height: 250px;
     width: 350px;
-    border: 6px solid #b692fc;
+    border: 4px solid #b692fc;
     box-shadow: 0 5px 15px rgba(0, 0, 0, .1);
+    border-radius: 7px;
     overflow: hidden;
     cursor: pointer;
     transition: .2s linear;
