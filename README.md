@@ -5,7 +5,7 @@
 
 - 🌱 I’m currently learning **React JS, VR Development with Unity, etc**
 
-- 💬 Ask me about **C++, DSA, Python, JS**
+- 💬 Ask me about **C++, DSA, Python, JS, React**
 
 - 📫 How to reach me **prathameshrajput7777@gmail.com**
 
