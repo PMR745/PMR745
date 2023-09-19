@@ -1,7 +1,7 @@
 <h1 align="center">Hi, I'm Prathamesh Rajput</h1>
 <h3 align="center">A passionate Frontend and Unity Developer</h3>
 
-- 🔭 I’m currently working on [College Notes with React](https://github.com/PMR745/CollegeNotesReact)
+- 🔭 I’m currently working on [Expense Tracker](https://github.com/PMR745/ExpenseTracker)
 
 - 🌱 I’m currently learning **React JS, VR Development with Unity, etc**
 
