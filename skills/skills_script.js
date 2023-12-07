@@ -4,8 +4,8 @@ const skillGraph = document.querySelectorAll(".skill_graph"),
     skillName = document.querySelectorAll(".skill_name")
 
 let progressStartValue = 0,
-    progressEndValue = [99, 75, 60, 99, 95, 82, 100, 40, 35],
-    skillnames = ["Basic Python", "HTML", "SQL", "C", "C++", "CSS", "JavaScript", "Unity", "VR Develpoment"]
+    progressEndValue = [99, 75, 60, 99, 95, 90, 100, 40, 35, 90, 50],
+    skillnames = ["Basic Python", "HTML", "SQL", "C","React JS", "C++", "CSS", "JavaScript", "Flutter", "Unity", "VR Develpoment" ]
     speed = 100;
 
 // for(let i = 0; i < progressEndValue.length; i++) {
