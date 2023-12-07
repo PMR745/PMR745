@@ -46,9 +46,10 @@
 
 .img img {
     height: 120px;  
-    /* border: 2px dashed #d206e8; */
+    border: 1px solid #0f0f0f;
     transition: all 0.3s ease;
     cursor: pointer;
+    border-radius: 5px;
 }
 
 .img img:hover {
