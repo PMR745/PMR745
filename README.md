@@ -1,9 +1,9 @@
 <h1 align="center">Hi, I'm Prathamesh Rajput</h1>
-<h3 align="center">A passionate Frontend and Unity Developer</h3>
+<h3 align="center">A passionate Frontend and Flutter Developer</h3>
 
 - 🔭 I’m currently working on [Expense Tracker](https://github.com/PMR745/ExpenseTracker)
 
-- 🌱 I’m currently learning **React JS, VR Development with Unity, etc**
+- 🌱 I’m currently learning **Flutter**
 
 - 💬 Ask me about **C++, DSA, Python, JS, React**
 
