@@ -3,7 +3,7 @@
 
 - 🔭 I’m currently working on [Expense Tracker](https://github.com/PMR745/ExpenseTracker)
 
-- 🌱 I’m currently learning **Flutter**
+- 🌱 I’m currently learning **Flutter Development**
 
 - 💬 Ask me about **C++, DSA, Python, JS, React**
 
