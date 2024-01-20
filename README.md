@@ -1,7 +1,7 @@
 <h1 align="center">Hi, I'm Prathamesh Rajput</h1>
 <h3 align="center">A passionate Frontend and Flutter Developer</h3>
 
-- 🔭 I’m currently working on [Expense Tracker](https://github.com/PMR745/ExpenseTracker)
+- 🔭 I’m currently working on [Travel App](https://github.com/PMR745/TravelApp)
 
 - 🌱 I’m currently learning **Flutter Development**
 
